@@ -13,3 +13,4 @@ esp32s3-hal = "0.15.0"
 esp-backtrace = { version = "0.11.0", features = ["esp32s3", "panic-handler", "exception-handler", "println"] }
 esp-println = { version = "0.9.0", features = ["esp32s3"] }
 
+a121-rs = { git = "https://github.com/Ragarnoy/a121-rs", branch = "esp-adapt" }

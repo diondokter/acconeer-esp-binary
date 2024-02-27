@@ -14,6 +14,9 @@ fn main() -> ! {
     let mut delay = Delay::new(&clocks);
 
     println!("Hello world!");
+
+    println!("{}", a121_rs::radar::rss_version());
+
     loop {
         println!("Loop...");
         delay.delay_ms(500u32);
